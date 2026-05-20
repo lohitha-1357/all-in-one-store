@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 20px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.cart-table th {
+    background: #333;
+    color: white;
+}
+
+.qty-form {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.qty-form input {
+    width: 60px;
+    padding: 5px;
+}
+
+.qty-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: darkred;
+}

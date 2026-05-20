@@ -1,0 +1,1 @@
+define("FAST2SMS_API_KEY", "PASTE_YOUR_API_KEY");
